@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.css';
-import logo from './Component/Logo.jpg'; // Adjust the path if needed
+import logo from './Logo.jpg'; // Adjust the path if needed
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
         <img src={logo} alt="Logo" />
-        <span className="logo-text">Your Logo Text</span>
+        <span className="logo-text">Sai Esvar P</span>
       </div>
       <nav>
         <ul>
