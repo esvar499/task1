@@ -1,11 +1,19 @@
 import React from "react";
-import Header from './Component/Header.js'; // Correct relative path to the Header component
+import Header from './Component/Header.js';
+import About from './Component/About.js';
+import Contact from './Component/Contact.js'; 
+import Footer from './Component/Footer.js'; // Import Footer component
 
 function App() {
   return (
     <div className="App">
       <Header />
-    </div> // Added the closing div tag
+      <main>
+        <About />
+        <Contact /> 
+      </main>
+      <Footer /> {/* Add Footer component here */}
+    </div>
   );
 }
 

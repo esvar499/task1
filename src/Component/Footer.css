@@ -1,0 +1,16 @@
+/* Component/Footer.css */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
